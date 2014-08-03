@@ -1,4 +1,4 @@
-#!/usr/bin/env node
+#!/usr/local/bin/node
 
 var replicate = require("./main");
 var colors = require('colors');
@@ -9,7 +9,5 @@ args.shift(); args.shift();
 
 if(args.length < 2) throw "syntax: replicate http://admin:pass@somecouch/sourcedb http://admin:pass@somecouch/destinationdb"
 
-replicate(args[0], args[1], function(results) {
-	console.log('replication complete.'.rainbow);
-});
+replicate(args[0], args[1]);
 
