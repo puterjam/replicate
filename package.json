@@ -1,8 +1,8 @@
 {
   "author": "PuterJam <PuterJam@gmail.com> (http://www.pjhome.net)",
   "name": "npm-copy",
+  "version": "0.4.0",
   "description": "A customizable CouchDB replicator in node.js.",
-  "version": "0.4",
   "repository": {
     "type": "git",
     "url": "git://github.com/puterjam/replicate.git"
