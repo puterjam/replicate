@@ -1,9 +1,9 @@
-# npm-copy — Simple, Fast and Reliable CouchDB Replication with Node.js
+# couch-copy — Simple, Fast and Reliable CouchDB Replication with Node.js
 
 ## Install
 
 ``` sh
-[sudo] npm install npm-copy
+[sudo] npm install couch-copy
 ```
 
 ## Usage
@@ -11,7 +11,7 @@
 Replicate installs as a executable file in unix based systems. Simply:
 
 ``` sh
-npm-copy http://admin:pass@somecouch/sourcedb http://admin:pass@somecouch/destinationdb
+couch-copy http://admin:pass@somecouch/sourcedb http://admin:pass@somecouch/destinationdb
 ```
 
 ## Library
