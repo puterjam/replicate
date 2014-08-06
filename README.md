@@ -3,7 +3,7 @@
 ## Install
 
 ``` sh
-[sudo] npm install couch-copy
+[sudo] npm install couch-cp
 ```
 
 ## Usage
@@ -11,11 +11,11 @@
 Replicate installs as a executable file in unix based systems. Simply:
 
 ``` sh
-couch-copy http://admin:pass@somecouch/sourcedb http://admin:pass@somecouch/destinationdb
+couch-cp http://admin:pass@somecouch/sourcedb http://admin:pass@somecouch/destinationdb
 ```
 
 ## Library
 
-npm-copy can also be used as a library. Check `bin.js` for a quick example.
+couch-cp can also be used as a library. Check `bin.js` for a quick example.
 
 Build follow replicate by mikeal.
